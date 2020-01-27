@@ -11,8 +11,8 @@ def key_for_min_value(ikea)
         ref = value
       end
     end
+    puts ref
   end
-  puts ref
 end
 #    name_hash.each do |key, value|
 #      if name_hash[key] == ref
