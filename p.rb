@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
   end
   new_hash = name_hash.select {|key, value| name_hash[key] == ref}
   end
- puts name_hash
+ puts new_hash
 end
 
 key_for_min_value(name_hash)
