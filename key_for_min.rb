@@ -13,10 +13,7 @@ def key_for_min_value(name_hash)
       end
     end
   end
-  name_hash.select do |key, value|
-    name_hash[key] == ref
-  end
-  puts name_hash
+  new_hash = name_hash.select {|key, value| name_hash[key] == ref}
+  new_array = new_hash.collect {|key, value| key.to_s}
+  new_array[0]
 end
-
- 
