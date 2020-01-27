@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
         ref = value
       end
     end
-    puts ref
+    ref
   end
 end
 
