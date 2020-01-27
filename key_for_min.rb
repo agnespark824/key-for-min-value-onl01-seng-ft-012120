@@ -13,7 +13,11 @@ def key_for_min_value(name_hash)
       end
     end
   end
-  name_hash.each do |key, value|
+  puts ref
+  puts name_hash
+end
+
+ name_hash.each do |key, value|
     if name_hash[key] == ref
       puts key
     end
