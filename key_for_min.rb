@@ -15,7 +15,6 @@ def key_for_min_value(name_hash)
   end
   name_hash.select do |key, value|
     name_hash[key] == ref
-    key
   end
 end
 
