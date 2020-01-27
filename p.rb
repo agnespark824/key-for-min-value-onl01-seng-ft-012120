@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     end
   end
   new_hash = name_hash.select {|key, value| name_hash[key] == ref}
-  new_hash.collect do {|key, value| key.to_s}
+  new_hash.collect {|key, value| key.to_s}
 end
 
 key_for_min_value(name_hash)
