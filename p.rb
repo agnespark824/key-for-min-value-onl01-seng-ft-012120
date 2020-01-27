@@ -13,7 +13,9 @@ def key_for_min_value(name_hash)
     end
   end
   puts ref
-  puts name_hash
+  name_hash.collect do |value, key|
+    puts name_hash[value]
+  end
 end
 
 key_for_min_value(name_hash)
