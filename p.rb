@@ -13,8 +13,8 @@ def key_for_min_value(name_hash)
     end
   end
   puts ref
-  name_hash.collect do |value, key|
-    puts name_hash[value]
+  name_hash.collect do |key, value|
+    puts if name_hash[key] == 25
   end
 end
 
